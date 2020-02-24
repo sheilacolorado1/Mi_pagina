@@ -45,9 +45,11 @@ body {
     cursor: pointer
 }
 .menu-elemento:hover{
-    color: rgb(252, 130, 181);
+    color: #fc82b5;
 }
-
+#menuIndice {
+    color: #fc82b5;
+}
 .imagen{
     border: 1px solid;
     border-radius: 500px;
