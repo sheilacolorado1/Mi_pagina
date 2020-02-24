@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>pagina persona </title>
+    <title>Sheila Colorado</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,7 +16,7 @@
         <header>
             <div class="header">
                 <div class="logo">
-                    <p>SHEILA</p>
+                    <p class="titulo">SHEILA</p>
                 </div>
                 <div class="menu-principal">
                     <p class="menu-elemento" id="menuIndice">INDICE</p>
@@ -26,67 +26,67 @@
                 </div>
             </div>
         </header>
-        <div class="intermedio">
-            <div class="imagen-contenido">
-                <img src="" alt="" class="imagen1">
+        <!--Quién soy-->
+        <div id="quienSoy">
+            <div style="display:block;"><img style="width: 100%" src="imagenes/sheilaimg.png" alt=""></div>
+            <div class="contenido">
+                <img src="imagenes/sheila.jpg" alt="" class="imagen">
+                <div style="width: 60%;">
+                    <h4 class="titulo">Sobre mí</h4>
+                    <p class="sheila">Mi nombre es Sheila Colorado, programadora Full Stack cursando Bootcamp
+                        GeeksHubs Academy. Soy una desarrolladora de software junior. Me gusta el diseño gráfico,
+                        aunque eso no me limita únicamente al desarrollo en frontend, pues desarrollo también en
+                        backend.
+                        Me encanta aprender cosas nuevas relacionadas con la tecnología. Soy bastante autodidacta,
+                        casi todo lo que sé lo he aprendido sola, a pesar de que estudiar sola me cuesta bastante, mi
+                        interés
+                        por la programación y dedicación me permiten seguir avanzando.
+                    </p>
+                </div>
+            </div>
+            <div style="margin-top: 2%" id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagenes/teclas.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>PROGRAMACIÓN FRONT END</h5>
+                            <p>Html, Css & Javascript</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/teclas2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>PROGRAMACIÓN BACKEND</h5>
+                            <p>Node & MySQL</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
             </div>
         </div>
-        <div id="quienSoy" class="contenido">
-            <img src="imagenes/sheila.jpg" alt="" class="imagen">
-            <div style="width: 60%">
-                <h4 class="titulo">Quien soy</h4>
-                <p class="sheila">Mi nombre es Sheila Colorado, programadora Full Stack cursando Bootcamp
-                    el dia tal de tal de 2020 en GeeksHubs Academu.
-                    Siempre tube algo de curiosidad por la progamacion y enpeze a investigar sobre
-                    ella hasta que vi que esto eras mi mayor deseo fue el desarroyo
-                </p>
-            </div>
-        </div>
+        <!--Contacto-->
         <div id="contacto" class="contenido" style="flex-direction: column; display: none">
             <h4 class="titulo">Contacto</h4>
             Para contactar conmigo puedes enviar un correo eléctronico a mi dirección sheilacolorado97@gmail.com
         </div>
+        <!--proyectos-->
         <div id="proyectos" class="contenido" style="flex-direction: column; display: none">
             <h4 class="titulo">Proyectos</h4>
             Aquí iré poniendo mis proyectos principales
         </div>
-        <div style="margin-top: 2%" id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="imagenes/teclas.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>PROGRAMACIÓN FRONT END</h5>
-                        <p>Html, Css & Javascript</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="imagenes/teclas2.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>PROGRAMACIÓN BACKEND</h5>
-                        <p>Node & MySQL</p>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
         <!--Footer-->
         <div class="footer">
-            <div class="footer-elemento">
-                <p class="titulo">DIRECCIÓN</p>
-                <p>Calle Benimuslem</p>
-                <p>Valencia, ESPAÑA</p>
-            </div>
             <div class="footer-elemento">
                 <p class="titulo">SERVICIOS</p>
                 <p>Desarrollo Frontend</p>

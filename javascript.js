@@ -14,7 +14,7 @@ menuProyectos.addEventListener('click', function (){
 menuIndice.addEventListener('click', function (){
     proyectos.style.display = 'none'
     contacto.style.display = 'none'
-    quienSoy.style.display = 'flex'
+    quienSoy.style.display = 'block'
 })
 
 menuContacto.addEventListener('click', function (){
